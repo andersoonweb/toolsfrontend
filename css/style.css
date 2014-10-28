@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Helvetica';
+}
+body{
+	height: 1500px;
+	background: #F5F5F5;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.main{
+	width: 960px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	background: #CD102D;
+	height: 300px;
+}
+.header h1{
+	float: left;
+	font-size: 90px;
+	color: #FFF;
+	text-align: center;
+	margin: 20px;
+}
+.header span{
+	display: block;
+	font-size: 80px;
+	text-transform: uppercase;
+}
+.info{
+	width: 100%;
+	background: #3F3F3F;
+	overflow: hidden;
+	padding: 10px 0;
+}
+.text {
+	margin-top: 30px;
+}
+.text h2{
+	font-size: 35px;
+	color: #F5F5F5;
+}
+.text h3{
+	padding-left: 20px;
+	text-align: justify;
+	color: #FCE9E9;
+	padding-top: 10px;
+	line-height: 30px;
+	font-style: italic;
+}
+.top-popular{
+	width: 600px;
+	float: left;
+}
+.titles{
+	font-size: 50px;
+	text-align: center;
+	margin: 20px 0;
+}
+.top-popular ul{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+.top-popular li{
+	margin: 40px 0;
+	background: #AB083F;
+	padding: 10px;
+	color: #FFF;
+}
+.top-popular a{
+	margin-left: 20px;
+	font-size: 30px;
+	color: #FFF;
+}
+.number{
+	background: #FF0057;
+	padding: 20px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: -20px;
+}
+.top-one{
+	width: 100%;
+}
+.top-two{
+	width: 90%;
+}
+.top-three{
+	width: 80%;
+}
+.top-four{
+	width: 70%;
+}
+.top-five{
+	width: 60%;
+}
+.labtocat{
+	margin: 50px 30px;
+}
