@@ -4,8 +4,7 @@
 	font-family: 'Helvetica';
 }
 body{
-	height: 2000px;
-	background: #F5F5F5;
+	background: url(../image/bg.png);
 }
 div{
 	margin: 0;
@@ -78,6 +77,7 @@ a:hover{
 	font-size: 50px;
 	text-align: center;
 	margin: 20px 0;
+	color: #CD102D;
 }
 .top-popular ul{
 	margin:0;
@@ -115,36 +115,67 @@ a:hover{
 .labtocat{
 	margin: 50px 30px;
 }
-.respondents{
+.respondents-left{
+	float: left;
 }
 .taxpayers{
-	width: 550px;
-	height: 200px;
-	margin: 20px 50px 20px 0;
-	float: left;
-	height: 500px;
+	width: 510px;
+	margin: 20px 10px 20px 0;
+	background: #F26E50;
+	padding: 15px;
+	height: 100%;
+	-webkit-border-top-left-radius: 50px;
+	-webkit-border-bottom-right-radius: 50px;
+	-moz-border-radius-topleft: 50px;
+	-moz-border-radius-bottomright: 50px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	border: 4px solid #A62C21;
 }
 .author{
 	width: 100%;
+	margin-left: 20px;
+	font-size: 25px;
+	color: #FFF;
 }
 .social{
 	float: right;
+	margin-right: 20px;
+	color: #f5f5f5;
 }
 .description{
 	display: block;
 	margin-top: 20px;
-	background: #26517F;
+	background: #D96348;
 	color: white;
 	padding: 5px 10px;
-	border-radius: 10px; 
 }
 .list-tools{
-	list-style-type: circle;
+	list-style: none;
 }
 .list-tools h3 a {
 	padding-bottom: 10px;
 	display: block;
+	color: #FFF;
 }
 .list-tools li{
-	margin: 40px 30px;
+	margin: 20px 30px;
+	background: #D96348;
+	padding: 5px 15px;
+}
+.comment{
+	color: #E2E2E2;
+}
+.footer{
+	clear: both;
+	background: #CD102D;
+	padding: 20px;
+}
+.footer span{
+	text-align: center;
+	display: block;
+	color: #FFF;
+ }
+.footer span a{
+	color: #FF667D;
 }
