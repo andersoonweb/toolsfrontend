@@ -91,7 +91,6 @@ a:hover{
 	color: #FFF;
 }
 .top-popular a{
-	margin-left: 20px;
 	font-size: 30px;
 	color: #FFF;
 }
@@ -101,7 +100,12 @@ a:hover{
 	color: #FFF;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: -20px;
+	margin: -5px 30px 0 -20px;
+	float: left;
+
+}
+.top-popular li:last-child{
+	padding: 4px 10px;
 }
 .top-one{
 	width: 100%;
@@ -111,6 +115,9 @@ a:hover{
 }
 .top-three{
 	width: 60%;
+}
+.top-three a{
+	font-size: 20px;
 }
 .labtocat{
 	margin: 50px 30px;
@@ -153,7 +160,7 @@ a:hover{
 .list-tools{
 	list-style: none;
 }
-.list-tools h3 a {
+.list-tools h3{
 	padding-bottom: 10px;
 	display: block;
 	color: #FFF;
