@@ -6,10 +6,6 @@
 body{
 	background: url(../image/bg.png);
 }
-div{
-	margin: 0;
-	padding: 0;
-}
 a{
 	text-decoration: none;
 }
@@ -23,9 +19,7 @@ a:hover{
 .content{
 	width: 1200px;
 	margin: 0 auto;
-}
-.clear{
-	clear: both;
+}.clear{clear: both;
 }
 .header{
 	width: 100%;
