@@ -85,7 +85,7 @@ a:hover{
 	color: #FFF;
 }
 .top-popular a{
-	font-size: 30px;
+	font-size: 25px;
 	color: #FFF;
 }
 .number{
@@ -98,9 +98,6 @@ a:hover{
 	float: left;
 
 }
-.top-popular li:last-child{
-	padding: 4px 10px;
-}
 .top-one{
 	width: 100%;
 }
@@ -109,9 +106,6 @@ a:hover{
 }
 .top-three{
 	width: 60%;
-}
-.top-three a{
-	font-size: 20px;
 }
 .labtocat{
 	margin: 50px 30px;
