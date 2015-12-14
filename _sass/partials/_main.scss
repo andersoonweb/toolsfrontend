@@ -1,0 +1,52 @@
+.wins{
+	width: 100%;
+	height: 100vh;
+	background: url('../image/bg-wins.jpeg') no-repeat;
+
+ 	&:before{
+		content: '';
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.8);
+		position: absolute;
+	}
+}
+
+.interview{
+	height: 1300px;
+}
+
+.authors-interview{
+	background: $bg-author;
+	margin: 30px 0;
+	padding: 10px;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	margin: 20px;
+	float: left;
+}
+.info-iterview{
+	margin-top: 30px;
+	float: left;
+}
+.title-interview{
+	text-align: center;
+	color: $green;
+	padding-bottom: 5px;
+}
+
+.site-interview{
+	text-align: center;
+	display: block;
+	color: $color-titles;
+	font-size: 13px;
+}
+
+.description-author{
+	color: $color-titles;
+	margin-bottom: 20px;
+}

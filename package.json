@@ -1,0 +1,35 @@
+{
+  "name": "tools-front-end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/free-time/free-time.github.io.git"
+  },
+  "keywords": [
+    "pesquisa",
+    "front-end",
+    "frontend"
+  ],
+  "author": "Anderson Menezes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/free-time/free-time.github.io/issues"
+  },
+  "homepage": "https://github.com/free-time/free-time.github.io",
+  "devDependencies": {
+    "browser-sync": "^1.9.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^2.3.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.2"
+  }
+}

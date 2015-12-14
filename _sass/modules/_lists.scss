@@ -1,0 +1,83 @@
+.itens-wins{
+	margin-top: 30px;
+}
+.tops{
+	background: $color-default;
+	height: 80px;
+	border-top-left-radius: 50px;
+	border-bottom-left-radius: 50px;
+	float: left;
+	text-align: center;
+	margin: 40px;
+}
+.tools-wins-one{
+	color: $color-titles;
+	text-align: center;
+	font-size: 70px;
+	font-family: $font-default-bold;
+	text-transform: uppercase;
+}
+.tools-wins-two,.tools-wins-three{
+	@extend .tools-wins-one;
+}
+.tools-wins-two,.tools-wins-three{
+	text-transform: none
+}
+.tools-wins-two{
+	font-size: 50px;
+}
+.tools-wins-three{
+	font-size: 30px;
+}
+.number{
+	background: $color-default;
+	color: $color-titles;
+	font-size: 90px;
+	display: inline-block;
+	border-radius: 100%;
+	width: 120px;
+	height: 120px;
+	float: left;
+	position: relative;
+	bottom: 20px;
+	left: -20px;
+	text-align: center;
+	font-family: $font-default-bold;
+}
+
+.number-interview{
+	background: $green - 50;
+	width: 50px;
+	height: 50px;
+	font-size: 38px;
+	float: left;
+	text-align: center;
+	border-radius: 100%;
+	color: $white;
+}
+
+.tools-questions{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.tools{
+	background: $green;
+	float: left;
+	padding: 10px 20px;
+	font-size: 14px;
+	color: $white;
+	font-family: $font-default-bold;
+	text-transform: uppercase;
+	margin: 6px 0 0 -10px
+}
+
+.description-tools{
+	text-align: left;
+	font-size: 18px;
+	font-family: $font-default;
+	background: $green;
+	color: $white;
+	padding: 10px 0;
+	margin: 5px 0 15px 0;
+}

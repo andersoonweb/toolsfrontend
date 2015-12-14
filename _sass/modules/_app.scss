@@ -1,0 +1,10 @@
+.title-contents{
+	padding: 3px 6px;
+	font-size: 48px;
+}
+.title-contents-blue{
+	@extend .title-contents;
+	color: $color-titles;
+	border-color: $color-titles;
+	margin: 30px 0;
+}

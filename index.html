@@ -1,0 +1,71 @@
+---
+layout: default
+title: Tools front end
+---
+<section class="wins">
+  <div class="container">
+    <section class="itens-wins">
+    <h2 class="btn-primary title-contents">As ferramentas mais populares</h2>
+      <ul>
+        <li class="tops col-md-9">
+          <span class="number">1</span>
+          <h3 class="tools-wins-one">Sublime text</h3>
+        </li>
+        
+        <li class="tops col-md-7 col-md-offset-1">
+          <span class="number">2</span>
+          <h3 class="tools-wins-two">Chorme devtools</h3>
+        </li>
+
+        <li class="tops col-md-4 col-md-offset-2">
+          <span class="number">3</span>
+          <h3 class="tools-wins-three">Adobe Photoshop</h3>
+        </li>
+      </ul>
+    </section>
+  </div>
+</section>
+
+{% for post in site.posts  %}
+<div class="container">
+  <div class="col-md-12">
+    <h2 class="btn-primary title-contents-blue">Entrevistados</h2>
+  </div>
+
+  <section class="col-md-5 col-md-offset-0">
+    <article class="authors-interview">
+      <div class="row">
+        <img src="{{ post.img }}" class="avatar" alt="{{ post.name }}">
+          <div class="col-md-6">
+            <div class="info-iterview">
+              <h2 class="title-interview">{{ post.name }}</h2>
+              <a href="#" class="site-interview">{{ post.website }}</a>
+            </div>
+          </div>
+      </div>
+      
+      <span class="col-md-12 description-author">{{ post.description }}</span>
+
+      <div class="row">
+        <li class="col-md-10 tools-questions">
+          <span class="number-interview">1</span>
+          <span class="tools">{{ post.tools-one }}</span>
+          <p class="col-md-12 description-tools">{{ post.description-one }}</p>
+        </li>
+
+        <li class="col-md-10 tools-questions">
+          <span class="number-interview">2</span>
+          <span class="tools">{{ post.tools-two }}</span>
+          <p class="col-md-12 description-tools">{{ post.description-two }}</p>
+        </li>
+
+        <li class="col-md-10 tools-questions">
+          <span class="number-interview">3</span>
+          <span class="tools">{{ post.tools-three }}</span>
+          <p class="col-md-12 description-tools">{{ post.description-three }}</p>
+        </li>
+      </div>
+    </article>
+  </section>
+</div>
+{% endfor %}
